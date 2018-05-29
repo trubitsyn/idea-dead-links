@@ -1,0 +1,21 @@
+<idea-plugin>
+    <id>dead-links</id>
+    <name>Dead Links</name>
+    <vendor email="nikola.trubitsyn@gmail.com" url="https://github.com/trubitsyn">Nikola Trubitsyn</vendor>
+    <idea-version since-build="145"/>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <description><![CDATA[
+      Inspection that highlights dead links.
+    ]]></description>
+
+    <change-notes><![CDATA[
+      First release.
+    ]]>
+    </change-notes>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <localInspection displayName="Dead link" groupName="HTML" enabledByDefault="true" level="WARNING" language="HTML" implementationClass="io.github.trubitsyn.deadlinks.DeadLinkInspection"/>
+    </extensions>
+</idea-plugin>
