@@ -42,7 +42,7 @@ class DeadLinkInspectionTest : LightPlatformCodeInsightFixtureTestCase() {
         """.trimIndent())
         myFixture.enableInspections(inspection)
         fakeServerUp {
-            myFixture.checkHighlighting(false, false, true)
+            myFixture.checkHighlighting(true, false, false)
         }
     }
 
@@ -53,6 +53,6 @@ class DeadLinkInspectionTest : LightPlatformCodeInsightFixtureTestCase() {
             <link rel="stylesheet" href="style.css"/>
         """.trimIndent())
         myFixture.enableInspections(inspection)
-        myFixture.checkHighlighting(false, false, true)
+        myFixture.checkHighlighting(true, false, false)
     }
 }
