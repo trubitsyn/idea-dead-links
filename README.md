@@ -1,17 +1,17 @@
 # idea-dead-links [![Build Status](https://travis-ci.org/trubitsyn/idea-dead-links.svg?branch=master)](https://travis-ci.org/trubitsyn/idea-dead-links) [![Downloads](https://img.shields.io/jetbrains/plugin/d/10787-dead-links.svg)](https://plugins.jetbrains.com/plugin/10787-dead-links) [![Version](https://img.shields.io/jetbrains/plugin/v/10787-dead-links.svg)](https://plugins.jetbrains.com/plugin/10787-dead-links)
 Inspection that highlights dead links in IntelliJ IDEA.
 
-# Usage
+## Usage
 1. Install the plugin
 2. Go to any HTML file
 3. Dead links will be highlighted as warnings
 
-# Building from source
+## Building from source
 1. Clone repository
 2. Run `./gradlew buildPlugin`
 3. You can find the plugin in `build/distributions` directory
 
-# LICENSE
+## LICENSE
 ```
 Copyright 2018 Nikola Trubitsyn
 
