@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.github.trubitsyn.deadlinks
+package org.trubitsyn.deadlinks
 
 import com.intellij.openapi.progress.ProgressManager
 import java.net.HttpURLConnection

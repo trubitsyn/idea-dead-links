@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.github.trubitsyn.deadlinks
+package org.trubitsyn.deadlinks
 
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue

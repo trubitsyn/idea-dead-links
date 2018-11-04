@@ -16,6 +16,6 @@
     </change-notes>
 
     <extensions defaultExtensionNs="com.intellij">
-        <localInspection displayName="Dead link" groupName="HTML" enabledByDefault="true" level="WARNING" language="HTML" implementationClass="io.github.trubitsyn.deadlinks.DeadLinkInspection"/>
+        <localInspection displayName="Dead link" groupName="HTML" enabledByDefault="true" level="WARNING" language="HTML" implementationClass="org.trubitsyn.deadlinks.DeadLinkInspection"/>
     </extensions>
 </idea-plugin>

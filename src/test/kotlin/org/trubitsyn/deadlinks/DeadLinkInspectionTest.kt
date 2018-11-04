@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.github.trubitsyn.deadlinks
+package org.trubitsyn.deadlinks
 
 import com.intellij.ide.highlighter.HtmlFileType
 import com.intellij.testFramework.fixtures.LightPlatformCodeInsightFixtureTestCase
